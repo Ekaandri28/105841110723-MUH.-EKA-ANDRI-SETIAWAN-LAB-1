@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TUGAS 3</title>
+</head>
+<body>
+  <h1>TUGAS 3</h1>
+  <script>
+    function soal1(a, b) {
+      return a - b;
+    }
+
+    function soal2(a, b) {
+      return a + b;
+    }
+
+    function soal3(a, b) {
+      return a + " " + b;
+    }
+
+    function soal4(a, b) {
+      return a == b;
+    }
+
+    function soal5(a, b) {
+      return a === b;
+    }
+
+    document.write("Buatlah fungsi yang mengembalikkan nilai bertipe integer (5, 2) = " + soal1(5, 2) + "<br>");
+    document.write("Buatlah fungsi yang mengembalikkan nilai boolean (true, false) = " + soal2(true, false) + "<br>");
+    document.write("Buatklah fungsi yang mengembalikkan nilai bertipe string ('Nama Depan', 'Nama Belakang') = " + soal3('MUH. EKA','ANDRI SETIAWAN') + "<br>");
+    document.write("Buatlah fungsi yang mengembalikkan nilai bertipe boolean (5, '5') = " + soal4(5, '5') + "<br>");
+    document.write("Buatlah fungsi yang mengembalikkan nilai bertipe boolean (5, '5') = " + soal5(5, '5') + "<br>");
+  
+  let nilaiMahasiswa = [ 10, 20, 30, 40, 50];
+  nilaiMahasiswa.map(function (nilai) {
+  document.write(nilai + "<br>");
+});
+
+let nilai = 80;
+if (nilai => 80) {
+  document.write("Nilai saya A");
+}  else if (nilai => 70){
+  document.write("Nilai saya B");
+} else if (nilai => 60){
+  document.write("Nilai saya C");
+} else {
+  document.write("Nilai saya Nol");
+}
+  // check 
+let namaCewe = "Neneng";
+let namaCowo = "Risal";
+let hasil = Math.floor(Math.random() * 71) + 30;
+if (hasil => 80) {
+  document.write(" selamat " + namaCewe + " dan " + namaCowo + " adalah jodoh sejati");
+  } else if (hasil => 70) {
+    document.write(" selamat " + namaCewe + " dan " + namaCowo + "adalah jodoh yg cocok");
+  } else if (hasil => 60) {
+    document.write(" selamat " + namaCewe + " dan " + namaCowo + "adalah jodoh yg biasa saja");
+  } else {
+   document.write("coba lagi ...");
+  }
+  </script>
+</body>
+</html>
